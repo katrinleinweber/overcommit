@@ -103,8 +103,9 @@ the way it was by running `overcommit --uninstall`.
 
 ### Automatically Install Overcommit Hooks
 
-If you want to use `overcommit` for all repositories you create/clone going
-forward, add the following to automatically run in your shell environment:
+If you want to use `overcommit` for all repositories you [init](https://git-scm.com/docs/git-init#_template_directory)
+or [clone](https://git-scm.com/docs/git-clone#Documentation/git-clone.txt---templatelttemplatedirectorygt)
+going forward, add the following to automatically run in your shell environment:
 
 ```bash
 export GIT_TEMPLATE_DIR="$(overcommit --template-dir)"
